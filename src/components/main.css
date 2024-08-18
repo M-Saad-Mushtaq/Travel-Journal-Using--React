@@ -1,0 +1,62 @@
+body {
+}
+
+.main {
+    
+    display: flex;
+
+    height: 50vh;
+    width: 50vw;
+    
+    display: flex;
+
+    margin-left: 25vw;
+    margin-top: 4vw;
+}
+
+.div--info {
+    margin-left: 20px;
+}
+
+.div--img {
+}
+
+.image {
+    height: 100%;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.div--top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.location-icon {
+    height: 25px;
+    width: 25px;
+    display: inline-block;
+    
+    margin-right: 7px;
+}
+
+.location {
+    display: inline-block;
+    letter-spacing: 4px;
+}
+
+.map-link {
+    margin-left: 10px;
+    color: grey;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.date {
+    font-weight: bold;
+}
